@@ -6,8 +6,8 @@
     <artifactId>pokedex</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
-    <name>Pierre Pokedex</name>
-    <url>https://github.com/Nhooxy/ceri-m1-test</url>
+    <name>Eyres Pokedex</name>
+    <url>https://github.com/Eyres/ceri-m1-test</url>
     <build>
         <directory>target</directory>
         <outputDirectory>target/classes</outputDirectory>
