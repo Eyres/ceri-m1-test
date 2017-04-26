@@ -2,8 +2,8 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.univavignon</groupId>
-	<artifactId>pokedex</artifactId>
-	<version>0.0.0</version>
+	<project.artifactId>pokedex</project.artifactId>
+	<project.version>0.0.0</project.version>
 	<build>
 		<finalName>${artifactId}-${version}</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
