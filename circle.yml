@@ -9,7 +9,7 @@ general:
   branches:
     only:
       - master
-
+TEST
 test:
   override:
     - mvn test
