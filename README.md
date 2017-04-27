@@ -1,9 +1,11 @@
-# UCE G√©nie Logiciel Avanc√© : Techniques de tests 
+#†Estelle CORSETTI
 
-Sujet de TP :  
+##†Alternante
 
-- [Slide cours](https://github.com/Faylixe/ceri-m1-test/blob/resources/Technique%20de%20tests.pdf) 
- 
-- [TP0 - Fork them all !](https://github.com/Faylixe/ceri-m1-test/raw/resources/TP0 - fork them all.pdf) 
-- [TP1 - (Des)int√©gration continue](https://github.com/Faylixe/ceri-m1-test/raw/resources/TP1 - (Des)int√©gration continue.pdf) 
-- [TP2 - Pokeunit](https://github.com/Faylixe/ceri-m1-test/raw/resources/TP2 - Pokeunit.pdf) 
+### Un badge pour CircleCI.
+[![CircleCI](https://circleci.com/gh/Eyres/ceri-m1-test.svg?style=shield)](https://circleci.com/gh/Eyres/ceri-m1-test)
+### Un badge pour la qualitÈ de code.
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/379b21c293a84f5caf75d41d5d236b89)](https://www.codacy.com/app/Eyres/ceri-m1-test?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Eyres/ceri-m1-test&amp;utm_campaign=Badge_Grade)
+### Un badge pour la couverture de test
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/379b21c293a84f5caf75d41d5d236b89)](https://www.codacy.com/app/Eyres/ceri-m1-test?utm_source=github.com&utm_medium=referral&utm_content=Eyres/ceri-m1-test&utm_campaign=Badge_Coverage)
+
