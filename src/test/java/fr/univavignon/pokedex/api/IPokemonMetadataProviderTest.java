@@ -19,32 +19,44 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class IPokemonMetadataProviderTest {
 
+	/*********************************************************************************************/
+    /**************************************** ATTRIBUTES *****************************************/
+    /*********************************************************************************************/
+
     @Mock
-    protected IPokemonMetadataProvider pokemonMetadataProviderMock;
+    protected IPokemonMetadataProvider pokemonMetadataProvider;
+
     @Rule
     public MockitoRule mockitoRule = MockitoJUnit.rule();
+    
+    /*********************************************************************************************/
+    /************************************** INITIALIZATION ***************************************/
+    /*********************************************************************************************/
     
     /**
      * IPokemonMetadataProvider mock's configuration
      * @throws PokedexException
      */
-	protected void configurePokemonMetadataProviderMock() throws PokedexException {
-		when(this.pokemonMetadataProviderMock.getPokemonMetadata(0)).thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
+	protected void configurePokemonMetadataProvider() throws PokedexException {
+		when(this.pokemonMetadataProvider.getPokemonMetadata(0)).thenReturn(new PokemonMetadata(0, "Bulbizarre", 126, 126, 90));
 	}
 
     @Before
     public void setUp() throws PokedexException {
-        this.configurePokemonMetadataProviderMock();
+        this.configurePokemonMetadataProvider();
     }
     
+    /*********************************************************************************************/
+    /******************************************* TESTS *******************************************/
+    /*********************************************************************************************/
+    
     /**
-	 * Retrieves and returns the metadata for the pokemon
-	 * denoted by the given <tt>index</tt>.
+	 * Test of the getPokemonMetadata method
 	 */
 	@Test
 	public void testGetPokemonMetadata() {
 		try {
-			PokemonMetadata metadata = this.pokemonMetadataProviderMock.getPokemonMetadata(0);
+			PokemonMetadata metadata = this.pokemonMetadataProvider.getPokemonMetadata(0);
 			
 			Assert.assertEquals("Bulbizarre", metadata.getName());
 			Assert.assertEquals(0, metadata.getIndex());
